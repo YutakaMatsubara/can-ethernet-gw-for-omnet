@@ -1,0 +1,46 @@
+<route>
+<RoutingMap ID="1">
+    <MessageInfo ID="3BA">
+        <RoutingInfo Name="Ethernet" Send="0"/>
+        <RoutingInfo Name="CAN1" Send="0"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+    <MessageInfo ID="15">
+        <RoutingInfo Name="Ethernet" Send="1"/>
+        <RoutingInfo Name="CAN1" Send="0"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+    <MessageInfo ID="20">
+        <RoutingInfo Name="Ethernet" Send="1"/>
+        <RoutingInfo Name="CAN1" Send="0"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+    <MessageInfo ID="25">
+        <RoutingInfo Name="Ethernet" Send="1"/>
+        <RoutingInfo Name="CAN1" Send="0"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+</RoutingMap>
+<RoutingMap ID="2">
+    <MessageInfo ID="3BA">
+        <RoutingInfo Name="Ethernet" Send="0"/>
+        <RoutingInfo Name="CAN1" Send="0"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+    <MessageInfo ID="15">
+        <RoutingInfo Name="Ethernet" Send="0"/>
+        <RoutingInfo Name="CAN1" Send="1"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+    <MessageInfo ID="20">
+        <RoutingInfo Name="Ethernet" Send="0"/>
+        <RoutingInfo Name="CAN1" Send="1"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+    <MessageInfo ID="25">
+        <RoutingInfo Name="Ethernet" Send="0"/>
+        <RoutingInfo Name="CAN1" Send="1"/>
+        <RoutingInfo Name="CGW" Send="0"/>
+    </MessageInfo>
+</RoutingMap>
+</route>

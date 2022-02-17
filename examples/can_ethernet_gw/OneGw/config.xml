@@ -1,0 +1,10 @@
+<config>
+
+  <interface hosts="EtherHost" towards="canEthernetGw" address="172.0.0.1" netmask="255.255.255.0" mtu="1500"/>
+  <interface hosts="canEthernetGw" towards="EtherHost" address="172.0.0.2" netmask="255.255.255.0" mtu="1500"/>
+  
+ 
+  <route hosts="EtherHost" destination="canEthernetGw" netmask="/32" metric="0" interface="eth0"/>
+  <route hosts="canEthernetGw" destination="EtherHost" netmask="/32" metric="0" interface="eth0"/>
+
+</config>

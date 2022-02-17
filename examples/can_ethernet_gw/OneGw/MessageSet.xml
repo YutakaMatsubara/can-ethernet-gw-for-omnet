@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<NodeInfo>
+   <Node ID="Sender">
+      <SendMessage ID="15" SendInterval="10" Sendtime="0" DLC="8" Offset="0" gwdeadline="10"/>
+      <SendMessage ID="20" SendInterval="2" Sendtime="0" DLC="8" Offset="0" gwdeadline="10"/>
+   </Node>
+   <Node ID="Receiver">
+   </Node>
+   <Node ID="CGWApp">
+   </Node>
+   <Node ID="CGWAppSrv">
+      <SendMessage ID="110" SendInterval="30" Sendtime="0" DLC="8" Offset="0" gwdeadline="10"/>
+   </Node>
+</NodeInfo>
